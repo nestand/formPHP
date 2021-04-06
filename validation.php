@@ -12,8 +12,8 @@
         $this->name = $nameU;
         $this->email = $emailU;
         $this->message = $messageU;
-       
-
+    }
+    
         if ($_POST) {
             $visitor_name = "";
             $visitor_email = "";
@@ -46,5 +46,5 @@
         } else {
             echo '<p>Une erreur technique est survenue</p>';
         }
-    }
+    
 ?>
